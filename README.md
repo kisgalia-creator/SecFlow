@@ -69,6 +69,3 @@ to thinking like security professionals.
 
 Developed by Galia Klein  
 Cybersecurity Practitioner
-
-Developed by Galia Klein  
-Cybersecurity Practitioner
