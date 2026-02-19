@@ -4,7 +4,6 @@ Junior SOC Training Tool - Network Capture, Scan &amp; Analysis Workflow
 ### Structured SOC Workflow Framework (In Development)
 
 SecFlow is a structured SOC workflow framework designed to help junior analysts and cybersecurity students think and operate like real security professionals.
-
 This project focuses on building a clear analytical process rather than just running tools.
 
 Capture → Scan → Analyze → Summarize → Recommend
