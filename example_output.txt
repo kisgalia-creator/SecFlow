@@ -1,0 +1,33 @@
+Scan target: 192.168.1.1
+
+----------------------------------------
+
+Port 22 (SSH) is open
+
+What it means:
+Remote access to the system is available
+
+Why it matters:
+This can be a sensitive entry point if not properly secured
+
+Next step:
+Try a basic connection and check if authentication is required
+
+----------------------------------------
+
+Port 80 (HTTP) is open
+
+What it means:
+A web service is running on the target
+
+Why it matters:
+There may be a web interface accessible through a browser
+
+Next step:
+Open the IP address in a browser and check for accessible pages
+
+----------------------------------------
+
+Summary:
+The target exposes remote access and web services.
+Basic access checks are recommended.
