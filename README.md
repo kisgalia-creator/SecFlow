@@ -1,70 +1,63 @@
 # SecFlow
-Junior SOC Training Tool - Network Capture, Scan &amp; Analysis Workflow
-# SecFlow  
-### Structured SOC Workflow Framework (In Development)
 
-SecFlow is a structured SOC workflow framework designed to help junior analysts and cybersecurity students think and operate like real security professionals.
-This project focuses on building a clear analytical process rather than just running tools.
+## What is SecFlow?
 
-Capture → Scan → Analyze → Summarize → Recommend
+SecFlow is a simple CLI tool designed to help beginners understand network scan results.
 
-## 🎯 Project Goal
-
-The goal of SecFlow is to bridge the gap between:
-
-- Learning security tools
-- Understanding analytical reasoning
-- Explaining findings clearly in interviews
-- Thinking in structured investigation phases
-
-SecFlow is being developed as both:
-
-- A hands-on training framework
-- A guided thinking model for junior SOC analysts
-
-## 🧠 Core Concept
-
-Instead of focusing only on commands (Nmap, traffic capture, etc.),  
-SecFlow emphasizes:
-
-- Structured workflow thinking  
-- Risk-oriented interpretation  
-- Clear summary writing  
-- Actionable recommendations  
-- Interview-ready explanation skills  
-
-The project is centered around building analytical discipline.
+Instead of just showing raw output (like from Nmap), SecFlow translates the findings into clear, practical insights:
+- What was found  
+- What it means  
+- Why it matters  
+- What to check next  
 
 ---
 
-## 🎤 Interview Preparation Value
+## Why I built this
 
-SecFlow is designed to help junior analysts explain:
+During my cybersecurity studies, I noticed a gap:
 
-- Why certain scans are performed  
-- What open ports really mean  
-- How to evaluate exposure  
-- How to classify risk  
-- What a SOC analyst would recommend next  
+Many students can run tools — but struggle to understand the results.
 
-It trains reasoning — not memorization.
+SecFlow was created to bridge that gap between:
+“I ran a scan” → “I understand what I’m seeing and what to do next”
 
-## 🛠 Development Focus
+---
 
-Current development phase:
+## How it works
 
-- Workflow architecture stabilization  
-- Risk interpretation modeling  
-- Structured output design  
-- Report layer planning  
+SecFlow follows a simple flow:
 
-This repository intentionally presents the conceptual framework  
-while core implementation logic remains private.
-## 🚀 Vision
+1. Scan a target (e.g. using Nmap)  
+2. Identify open ports and services  
+3. Translate technical output into plain language  
+4. Suggest a basic next step for investigation  
 
-SecFlow aims to evolve into a structured SOC training assistant  
-that helps analysts move from executing tools  
-to thinking like security professionals.
+---
 
-Developed by Galia Klein  
-Cybersecurity Practitioner
+## Example
+
+Port 22 (SSH) is open
+
+- Meaning: Remote access to the system is available  
+- Why it matters: This can be a sensitive entry point  
+- Next step: Try a basic connection and check authentication type  
+
+---
+
+## Technologies
+
+- Python (CLI tool)  
+- Nmap (for scanning)  
+- Basic network analysis concepts  
+
+---
+
+## Status
+
+Work in progress — currently focused on building a simple, clear, and working flow before adding more features.
+
+---
+
+## Goal
+
+To create a practical learning tool that helps beginners think like analysts — not just run commands.
